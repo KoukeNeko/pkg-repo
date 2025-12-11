@@ -14,3 +14,19 @@ Section: misc
 Priority: optional
 Description: hashi-backend
 
+Package: hashi-backend
+Version: 0.0.0.6
+Architecture: arm64
+Maintainer: Unknown <koukeneko@dev>
+Installed-Size: 213306
+Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
+Provides: hashi-backend
+Filename: pool/main/hashi-backend_0.0.0.6_arm64.deb
+Size: 83850204
+MD5sum: 00c7f92c193de85a8d4c73298aaf1bc5
+SHA1: ea7b47806b72db91ea461a20fa395d9f940f8239
+SHA256: a6d62d8800031c97322bca9321a9cf856f6ce3b95198fb3b7e20377a58dd129e
+Section: misc
+Priority: optional
+Description: hashi-backend
+
