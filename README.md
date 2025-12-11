@@ -32,7 +32,7 @@ sudo dnf install hashi
 |---------|----------------|---------|
 | stable | `X.Y.Z` | `0.0.0.12` |
 | beta | `X.Y.Z~beta` | `0.0.0.12~beta` |
-| dev | `X.Y.Z~dev.DATE` | `0.0.0.1~dev.20241211` |
+| dev | `X.Y.Z~dev` | `0.0.0.1~dev` |
 
 ```bash
 # 查看可用版本
