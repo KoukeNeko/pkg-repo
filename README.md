@@ -57,8 +57,55 @@ sudo apt remove hashi hashi-beta hashi-dev
 sudo apt install hashi-dev
 ```
 
-### Check Available Versions
+---
 
-```bash
-apt-cache policy hashi hashi-beta hashi-dev
+## 📁 Repository Structure
+
+### APT (Debian/Ubuntu)
+
 ```
+apt/
+├── dists/stable/                    # Distribution metadata
+│   ├── Release                      # Repository info + file hashes
+│   ├── Release.gpg                  # Detached GPG signature
+│   ├── InRelease                    # Signed Release (inline)
+│   └── main/
+│       ├── binary-amd64/
+│       │   ├── Packages             # Package index (amd64)
+│       │   └── Packages.gz
+│       └── binary-arm64/
+│           ├── Packages             # Package index (arm64)
+│           └── Packages.gz
+├── pool/stable/                     # Package files
+│   └── hashi/
+│       ├── hashi_X.Y.Z_amd64.deb
+│       ├── hashi_X.Y.Z_arm64.deb
+│       ├── hashi-beta_X.Y.Z_*.deb
+│       └── hashi-dev_X.Y.Z_*.deb
+└── install.sh                       # Quick install script
+```
+
+### RPM (RHEL/CentOS/Fedora)
+
+```
+rpm/
+├── packages/hashi/                  # Package files
+│   ├── hashi-X.Y.Z-1.x86_64.rpm
+│   └── hashi-X.Y.Z-1.aarch64.rpm
+├── repodata/                        # Repository metadata (auto-generated)
+│   ├── repomd.xml
+│   └── ...
+└── install.sh                       # Quick install script
+```
+
+---
+
+## 🔧 Update Process
+
+The repository index is updated in this order (important!):
+
+1. **Generate `Packages`/`Packages.gz`** - scan all .deb files
+2. **Generate `Release`** - includes hashes of Packages files
+3. **Sign `Release`** - GPG signature for security
+
+> ⚠️ If Release is generated before Packages update, hash mismatch will occur!
