@@ -12,7 +12,7 @@ on:
       - "apt/**"
       - "rpm/**"
       - "KEY.gpg"
-      - "scripts/**"
+      - "README.md"
   workflow_dispatch:
 
 permissions:
@@ -30,16 +30,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Install createrepo
-        run: sudo apt-get update && sudo apt-get install -y createrepo-c
-
-      - name: Update repository index
-        run: |
-          chmod +x scripts/update-repo.sh
-          ./scripts/update-repo.sh
-        env:
-          GPG_PRIVATE_KEY: ${{ secrets.GPG_PRIVATE_KEY }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
