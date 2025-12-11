@@ -4,16 +4,16 @@ Suite: stable
 Codename: stable
 Architectures: amd64 arm64
 Components: main
-Date: Thu, 11 Dec 2025 12:39:30 +0000
+Date: Thu, 11 Dec 2025 12:45:16 +0000
 MD5Sum:
- c2e18d538ec282731d910de8be817d2a 2928 main/binary-amd64/Packages
- af6b129149ccf9f227a24fba7c2f8f8c 911 main/binary-amd64/Packages.gz
+ 2331520725de91581fa9b205062d8733 2940 main/binary-arm64/Packages
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/.gitkeep
- c2e18d538ec282731d910de8be817d2a 2928 main/binary-arm64/Packages
- 752bff8eec41eec72521bb9681a1461d 911 main/binary-arm64/Packages.gz
+ 4232128b017dcc069327cd5d532db4c9 912 main/binary-arm64/Packages.gz
+ 2331520725de91581fa9b205062d8733 2940 main/binary-amd64/Packages
+ b5062d1f2d2636b796cff769675e5ce0 912 main/binary-amd64/Packages.gz
 SHA256:
- cb7c82b7da1ad0698b2ceb09c939c88e249c3171ac1f0f00e3b1869fd9d4285c 2928 main/binary-amd64/Packages
- b758d7704efa399d370a5184adc917ea2384c6fc9e0057097536a99094746725 911 main/binary-amd64/Packages.gz
+ 2af6180189eac765c369a26fc2872cd40c854a32aae6cf5dae8971109ca467e7 2940 main/binary-arm64/Packages
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/.gitkeep
- cb7c82b7da1ad0698b2ceb09c939c88e249c3171ac1f0f00e3b1869fd9d4285c 2928 main/binary-arm64/Packages
- 13e83cab101984c34e70e016840bf6a0b2c96faa59c9443df81a899166afb1a0 911 main/binary-arm64/Packages.gz
+ 0802c8fa9b95cf171b49b7dc4cd4ce524db48eac49770b5a278ce7ee08e2dd10 912 main/binary-arm64/Packages.gz
+ 2af6180189eac765c369a26fc2872cd40c854a32aae6cf5dae8971109ca467e7 2940 main/binary-amd64/Packages
+ a4de054769c367226853a6a707b7176d8c94bd525b682d9c0c3136b17795d756 912 main/binary-amd64/Packages.gz
