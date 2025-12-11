@@ -1,0 +1,14 @@
+Origin: KoukeNeko
+Label: KoukeNeko APT Repository
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Personal APT repository by KoukeNeko
+Date: Thu, 11 Dec 2025 09:36:52 +0000
+MD5Sum:
+ f94a91aa9025fc578a8c6ba8822173db 689 main/binary-amd64/Packages
+ 23954749d20b72657a71c281443642a5 462 main/binary-amd64/Packages.gz
+SHA256:
+ 626ef31d9cc3373f4b965d45eecbd39c0d08fb23b12729434ea2b59e5eeeae26 689 main/binary-amd64/Packages
+ 5b5a764f7357da4429e6cdf0ddeb8cc95b9e4209955eeba73ab483575e54d1eb 462 main/binary-amd64/Packages.gz

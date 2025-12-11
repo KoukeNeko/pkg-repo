@@ -1,0 +1,33 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: KoukeNeko
+Label: KoukeNeko APT Repository
+Suite: stable
+Codename: stable
+Architectures: amd64
+Components: main
+Description: Personal APT repository by KoukeNeko
+Date: Thu, 11 Dec 2025 09:36:52 +0000
+MD5Sum:
+ f94a91aa9025fc578a8c6ba8822173db 689 main/binary-amd64/Packages
+ 23954749d20b72657a71c281443642a5 462 main/binary-amd64/Packages.gz
+SHA256:
+ 626ef31d9cc3373f4b965d45eecbd39c0d08fb23b12729434ea2b59e5eeeae26 689 main/binary-amd64/Packages
+ 5b5a764f7357da4429e6cdf0ddeb8cc95b9e4209955eeba73ab483575e54d1eb 462 main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEENcDc7xeuNb2Px//GUg28iE7o4TYFAmk6kLQACgkQUg28iE7o
+4Tb1lw/+Nyt7haWkeQA7iHm0u+wG4o8mafNIbMDZ2K7ftIU7H8+oVOk9SiTtPhSb
+TwZxKRfXCCQUF+j6Qw7rjXEbG32zFLE/0l4iKiOWMlJGsBvUGDKvvzw+Gae5C0eV
+0+rIqTuhJcwTWfNon8JcYgskGwsjv5m3u80jcmSDmsLlWZhSbmZa9T41M9sbVBDH
+5GibaBIBroGFga2/Wf2saakZD5PKIxGSXhmhQImcu/6R0DNdUvN+lnrRmeynHHuu
+HaNdXZDWX9+Rpw8P0uvk6iQmtGsz9cGj8mc8mvj5mHspqZkQ7G2ZnMD9q5y06bga
+GRSg5B2groTfKnpYfKg4gPTuY7IyVZSJkmD6f08wHqJ8UH+yoeiD1ZvrHcAYxtT/
+LopHFnYtqkha/w+VgDB4pJwxauQvfSdH4K9aHfLHzoCGyNGqDPxhp0s0HUiTfU9T
+3fslYBzMmuXuDBZ+L1p+Kxj9uQaTeB218YNTmAffdMxgxntE5+qbm8Bii7YDFzOW
+WEzVOQCC+52qYyKFqYqCj6+NzWOpNrQRcBqhFb+h34CChYBDVSjlHS7d1aBvNLZp
+Gx/AC1GF/InQP2hnQvvC1mTkJmpkUcQpFCDXnjEHb7i7kfD/cwDylN7M1Br3WOV9
+WTVJuUdY1cgRgNtZWynvJd1V52cbxmQFZWMgtybHOtQMVaDPv/4=
+=ZBm1
+-----END PGP SIGNATURE-----
