@@ -7,17 +7,17 @@ Personal package repository for Debian/Ubuntu (APT) and RHEL/CentOS/Fedora (RPM)
 ### Debian / Ubuntu
 ```bash
 curl -fsSL https://koukeneko.github.io/pkg-repo/apt/install.sh | sudo bash
-sudo apt install hashi-backend
+sudo apt install hashi
 ```
 
 ### RHEL / CentOS / Fedora
 ```bash
 curl -fsSL https://koukeneko.github.io/pkg-repo/rpm/install.sh | sudo bash
-sudo dnf install hashi-backend
+sudo dnf install hashi
 ```
 
 ## Available Packages
 
 | Package | Description | Architectures |
 |---------|-------------|---------------|
-| `hashi-backend` | Hashi Server Management Backend | amd64, arm64 |
+| `hashi` | Hashi Server Management Dashboard | amd64, arm64 |

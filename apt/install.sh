@@ -37,5 +37,5 @@ echo "🔄 Updating package list..."
 apt-get update -o Dir::Etc::sourcelist="${LIST_PATH}" -o Dir::Etc::sourceparts="-" -o APT::Get::List-Cleanup="0" > /dev/null 2>&1 || apt-get update > /dev/null 2>&1
 
 echo ""
-echo "✅ Done! Install with: sudo apt install hashi-backend"
+echo "✅ Done! Install with: sudo apt install hashi"
 echo ""
