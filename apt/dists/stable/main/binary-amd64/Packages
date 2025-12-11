@@ -1,96 +1,32 @@
-Package: hashi-backend
-Version: 0.0.0.6
+Package: hashi
+Version: 0.0.0.10
 Architecture: arm64
 Maintainer: Unknown <koukeneko@dev>
-Installed-Size: 213306
+Installed-Size: 213508
 Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
-Provides: hashi-backend
-Filename: pool/main/hashi-backend_0.0.0.6_arm64.deb
-Size: 83850204
-MD5sum: 00c7f92c193de85a8d4c73298aaf1bc5
-SHA1: ea7b47806b72db91ea461a20fa395d9f940f8239
-SHA256: a6d62d8800031c97322bca9321a9cf856f6ce3b95198fb3b7e20377a58dd129e
+Provides: hashi
+Filename: pool/stable/hashi_0.0.0.10_arm64.deb
+Size: 84152174
+MD5sum: 9295988351769603f84e26fd1f96a3b3
+SHA1: 7c8dd865dd655bc21b5028005f57000287478dbf
+SHA256: 176ca498e7f2ffa4cd7d11030ee26e0dd01ba82b34c13438bc033334c2ac842e
 Section: misc
 Priority: optional
-Description: hashi-backend
+Description: hashi
 
-Package: hashi-backend
-Version: 0.0.0.6
+Package: hashi
+Version: 0.0.0.10
 Architecture: amd64
 Maintainer: Unknown <koukeneko@dev>
-Installed-Size: 213787
+Installed-Size: 213905
 Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
-Provides: hashi-backend
-Filename: pool/main/hashi-backend_0.0.0.6_amd64.deb
-Size: 84676952
-MD5sum: 170cc7a4b4b8e1a6b5d1d7ba1f9be399
-SHA1: 4fcfb60775837af5c2ea5515c05320bf39a76de7
-SHA256: 59fd2b4574dc02c07c7948263ffec88b94cd2c617e5a970ecf02c522d1276531
+Provides: hashi
+Filename: pool/stable/hashi_0.0.0.10_amd64.deb
+Size: 85014170
+MD5sum: fa3bf96a8c296ee9d299c5e099f24f03
+SHA1: 76a7412d3c85eee6b8662052ebdb73b17690a405
+SHA256: cd38799642453a7640c91aa703562dcd38f61b3035e7d24a951807d242e96ffb
 Section: misc
 Priority: optional
-Description: hashi-backend
-
-Package: hashi-backend
-Version: 0.0.0.7
-Architecture: amd64
-Maintainer: Unknown <koukeneko@dev>
-Installed-Size: 214008
-Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
-Provides: hashi-backend
-Filename: pool/main/hashi-backend_0.0.0.7_amd64.deb
-Size: 84670460
-MD5sum: 113c92b1cf5b2dc616230736958f1545
-SHA1: 1f5c361358fe003a82f1b3a7c243dd36a76c2bbf
-SHA256: a507d09c138f0b8ece5f728789a79ed72e2a3a838e8e6a3d21e691d1754cb33e
-Section: misc
-Priority: optional
-Description: hashi-backend
-
-Package: hashi-backend
-Version: 0.0.0.7
-Architecture: arm64
-Maintainer: Unknown <koukeneko@dev>
-Installed-Size: 213406
-Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
-Provides: hashi-backend
-Filename: pool/main/hashi-backend_0.0.0.7_arm64.deb
-Size: 83850082
-MD5sum: d36e6250f08f5e57f75e9a147ad0c735
-SHA1: a2864d1c6104c06bf0705445cc8fce67114861a5
-SHA256: 6962c53983d24ceb76a65651397a09447aacd6304312d00faca659dfcb69e8fd
-Section: misc
-Priority: optional
-Description: hashi-backend
-
-Package: hashi-backend
-Version: 0.0.0.8
-Architecture: arm64
-Maintainer: Unknown <koukeneko@dev>
-Installed-Size: 213167
-Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
-Provides: hashi-backend
-Filename: pool/main/hashi-backend_0.0.0.8_arm64.deb
-Size: 83849984
-MD5sum: 00a01c04f6f608fcb98b495e188fd817
-SHA1: d9a5bda063d1c4fb0a2aa845bb23a7690aace161
-SHA256: 3c369414d1e5dc06db45cefee0b5ce8e6bf7aeaf7ccbf9bc40b9b8cabeb82408
-Section: misc
-Priority: optional
-Description: hashi-backend
-
-Package: hashi-backend
-Version: 0.0.0.8
-Architecture: amd64
-Maintainer: Unknown <koukeneko@dev>
-Installed-Size: 213675
-Depends: libc6, zlib1g , libvirt-clients, libvirt-daemon-system, iptables, sudo
-Provides: hashi-backend
-Filename: pool/main/hashi-backend_0.0.0.8_amd64.deb
-Size: 84676938
-MD5sum: b726023b764d3c9f5650353a7b24ac18
-SHA1: 149de9729e03e2d6b78c75dae2f7900a66815e10
-SHA256: 53fea28c6f884771635fb9dd90cf65ed5ff191deb8189c2366ecef69b09940bb
-Section: misc
-Priority: optional
-Description: hashi-backend
+Description: hashi
 
